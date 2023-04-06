@@ -1,5 +1,7 @@
 import os
 
+import allure
+from allure_commons.types import Severity
 from faker import Faker
 from allure_commons._allure import step
 from selene import have
@@ -8,7 +10,9 @@ from selene.support.shared import browser
 
 fake = Faker()
 
-
+@allure.label('owner', 'Maxim Veselov')
+@allure.feature('Web')
+@allure.severity(Severity.NORMAL)
 def test_check_cart_quantity(demoshop, app, clean_cart):
     app.open("")
     demoshop.add_computing_and_internet_book_to_cart(count=4)
@@ -18,7 +22,9 @@ def test_check_cart_quantity(demoshop, app, clean_cart):
     with step('check cart size'):
         app.element('.cart-label~.cart-qty').should(have.text('(9)'))
 
-
+@allure.label('owner', 'Maxim Veselov')
+@allure.feature('Web')
+@allure.severity(Severity.NORMAL)
 def test_gift_cards_match(demoshop, app, clean_cart):
     app.open('https://demowebshop.tricentis.com/gift-cards')
     recipient_info = {
@@ -39,6 +45,9 @@ def test_gift_cards_match(demoshop, app, clean_cart):
         app.element('.ico-cart .cart-label').click()
 
 
+@allure.label('owner', 'Maxim Veselov')
+@allure.feature('Web')
+@allure.severity(Severity.NORMAL)
 def test_books_match(demoshop, app, clean_cart):
     app.open('https://demowebshop.tricentis.com/books')
     for book in browser.elements('[type = "button"][value = "Add to cart"]'):
@@ -49,6 +58,9 @@ def test_books_match(demoshop, app, clean_cart):
         assert '44.00' in response.text
 
 
+@allure.label('owner', 'Maxim Veselov')
+@allure.feature('Web')
+@allure.severity(Severity.NORMAL)
 def test_add_digital_downloads_to_wishlist(demoshop, app, clean_wishlist):
     app.open("")
     demoshop.add_3rd_album_to_wishlist()
@@ -60,6 +72,10 @@ def test_add_digital_downloads_to_wishlist(demoshop, app, clean_wishlist):
         app.all('.product>[href]').should(have.texts('3rd Album', 'Music 2', 'Music 2'))
 
 
+@allure.label('owner', 'Maxim Veselov')
+@allure.feature('Web')
+@allure.severity(Severity.NORMAL)
+@allure.feature('Web')
 def test_compare_desktop_pc(app, clear_compare_list):
     app.open('https://demowebshop.tricentis.com/desktops')
     app.element('.product-title>[href="/build-your-cheap-own-computer"]').click()
