@@ -71,7 +71,7 @@ WEB тесты - это тесты для демонстрации гибрид�
 
 <!-- Telegram -->
 
-### <img width="3%" title="Telegram" src="images/logo_stacks/tg.png"> Интеграция с Telegram
+### <img width="3%" title="Telegram" src="images/logo/tg.png"> Интеграция с Telegram
 ##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах.
 
 ![This is an image](images/screenshots/tg.png)
