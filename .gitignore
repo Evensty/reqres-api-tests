@@ -130,3 +130,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /tests/allure-results/
+/notifications/commands.txt
+/notifications/config.json
