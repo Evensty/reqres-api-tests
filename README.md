@@ -36,11 +36,11 @@ WEB тесты - это тесты для демонстрации гибрид�
 ![This is an image](images/screenshots/jenkins.png)
 
 Также мы можем посмотреть выполнение тестов в консоли перейдя во вкладку "Вывод консоли" у определенного билда
-![This is an image](images/screenshots/jenkins_console.png)
+![This is an image](images/screenshots/console.png)
 
 <!-- Allure report -->
 
-### <img width="3%" title="Allure Report" src="images/logo_stacks/allure_report.png"> Allure report
+### <img width="3%" title="Allure Report" src="images/logo/allure_report.png"> Allure report
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
 ![This is an image](images/screenshots/allure_report.png)
 
@@ -61,8 +61,7 @@ WEB тесты - это тесты для демонстрации гибрид�
 #### Во вкладке со сьютами, мы можем:
 - Управлять всеми тест-кейсами или с каждым отдельно
 - Перезапускать каждый тест отдельно от всех тестов
-- Настроить интеграцию с Jira
-- Добавлять ручные тесты и т.д
+- Добавлять ручные тесты
 
 ![This is an image](images/screenshots/allure_testops_suites.png)
 
@@ -70,17 +69,9 @@ WEB тесты - это тесты для демонстрации гибрид�
 ![This is an image](images/screenshots/allure_testops_launcher.png)
 
 
-<!-- Jira -->
-
-### <img width="3%" title="Jira" src="images/logo_stacks/jira.png"> Интеграция с Jira
-##### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
-
-![This is an image](images/screenshots/jira.png)
-
-
 <!-- Telegram -->
 
 ### <img width="3%" title="Telegram" src="images/logo_stacks/tg.png"> Интеграция с Telegram
 ##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах.
 
-![This is an image](images/screenshots/tg_bot.png)
+![This is an image](images/screenshots/tg.png)
