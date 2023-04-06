@@ -13,6 +13,7 @@ fake = Faker()
 @allure.label('owner', 'Maxim Veselov')
 @allure.feature('Web')
 @allure.severity(Severity.NORMAL)
+@allure.story('demowebshop')
 def test_check_cart_quantity(demoshop, app, clean_cart):
     app.open("")
     demoshop.add_computing_and_internet_book_to_cart(count=4)
@@ -25,6 +26,7 @@ def test_check_cart_quantity(demoshop, app, clean_cart):
 @allure.label('owner', 'Maxim Veselov')
 @allure.feature('Web')
 @allure.severity(Severity.NORMAL)
+@allure.story('demowebshop')
 def test_gift_cards_match(demoshop, app, clean_cart):
     app.open('https://demowebshop.tricentis.com/gift-cards')
     recipient_info = {
@@ -48,6 +50,7 @@ def test_gift_cards_match(demoshop, app, clean_cart):
 @allure.label('owner', 'Maxim Veselov')
 @allure.feature('Web')
 @allure.severity(Severity.NORMAL)
+@allure.story('demowebshop')
 def test_books_match(demoshop, app, clean_cart):
     app.open('https://demowebshop.tricentis.com/books')
     for book in browser.elements('[type = "button"][value = "Add to cart"]'):
@@ -61,6 +64,7 @@ def test_books_match(demoshop, app, clean_cart):
 @allure.label('owner', 'Maxim Veselov')
 @allure.feature('Web')
 @allure.severity(Severity.NORMAL)
+@allure.story('demowebshop')
 def test_add_digital_downloads_to_wishlist(demoshop, app, clean_wishlist):
     app.open("")
     demoshop.add_3rd_album_to_wishlist()
@@ -76,6 +80,7 @@ def test_add_digital_downloads_to_wishlist(demoshop, app, clean_wishlist):
 @allure.feature('Web')
 @allure.severity(Severity.NORMAL)
 @allure.feature('Web')
+@allure.story('demowebshop')
 def test_compare_desktop_pc(app, clear_compare_list):
     app.open('https://demowebshop.tricentis.com/desktops')
     app.element('.product-title>[href="/build-your-cheap-own-computer"]').click()

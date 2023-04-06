@@ -17,13 +17,13 @@
 
 ### Что проверяют тесты
 API:
-![This is an image](images/screenshots/.png)
+![This is an image](images/screenshots/api_tests.png)
 WEB:
-![This is an image](images/screenshots/.png)
+![This is an image](images/screenshots/web_tests.png)
 
 WEB тесты - это тесты для демонстрации гибридных тестов WEB и API.
 В WEB тестах используется API для авторизации, создание и удаление сущностей.
-![This is an image](images/screenshots/w.png)
+![This is an image](images/screenshots/api_web.png)
 
 В проекте используется встроенный logger - logging:
 ![This is an image](images/screenshots/logger.png)
@@ -31,7 +31,7 @@ WEB тесты - это тесты для демонстрации гибрид�
 <!-- Jenkins -->
 
 ### <img width="3%" title="Jenkins" src="images/logo_stacks/jenkins.png"> Запуск проекта в Jenkins
-### [Job](https://jenkins.autotests.cloud/job/kudaev-reqres-in/)
+### [Job](https://jenkins.autotests.cloud/job/Maxim_Veselov11-reqres-api-tests/)
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере jenkins.
 ![This is an image](images/screenshots/jenkins.png)
 
@@ -42,13 +42,13 @@ WEB тесты - это тесты для демонстрации гибрид�
 
 ### <img width="3%" title="Allure Report" src="images/logo_stacks/allure_report.png"> Allure report
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
-![This is an image](images/screenshots/allure_dashboard.png)
+![This is an image](images/screenshots/allure_report.png)
 
 ##### Во вкладке Graphs можно посмотреть графики о прохождении тестов, по их приоритезации, по времени прохождения и др.
-![This is an image](images/screenshots/allure_graphs.png)
+![This is an image](images/screenshots/graphs.png)
 
 ##### Во вкладке Suites находятся собранные тест кейсы, у которых описаны шаги.
-![This is an image](images/screenshots/allure_suites.png)
+![This is an image](images/screenshots/suites.png)
 
 
 <!-- Allure TestOps -->
