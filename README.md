@@ -51,24 +51,6 @@ WEB тесты - это тесты для демонстрации гибрид�
 ![This is an image](images/screenshots/suites.png)
 
 
-<!-- Allure TestOps -->
-
-### <img width="3%" title="Allure TestOps" src="images/logo_stacks/allure_testops.png"> Интеграция с Allure TestOps
-### [Dashboard](https://allure.autotests.cloud/project/2025/dashboards)
-##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
-![This is an image](images/screenshots/allure_testops_dashboard.png)
-
-#### Во вкладке со сьютами, мы можем:
-- Управлять всеми тест-кейсами или с каждым отдельно
-- Перезапускать каждый тест отдельно от всех тестов
-- Добавлять ручные тесты
-
-![This is an image](images/screenshots/allure_testops_suites.png)
-
-Во вкладке Launches мы можем видить тестовые прогоны:
-![This is an image](images/screenshots/allure_testops_launcher.png)
-
-
 <!-- Telegram -->
 
 ### <img width="3%" title="Telegram" src="images/logo/tg.png"> Интеграция с Telegram
