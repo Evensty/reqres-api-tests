@@ -21,9 +21,9 @@ API:
 WEB:
 ![This is an image](images/screenshots/web_tests.png)
 
-WEB тесты - это тесты для демонстрации гибридных тестов WEB и API.
+WEB тесты - тесты для демонстрации гибридных тестов WEB и API.
 В WEB тестах используется API для авторизации, создание и удаление сущностей.
-![This is an image](images/screenshots/api_web.png)
+![This is an image](images/screenshots/web_api.png)
 
 В проекте используется встроенный logger - logging:
 ![This is an image](images/screenshots/logger.png)
