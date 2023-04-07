@@ -30,7 +30,7 @@ WEB тесты -  демонстрация гибридных тестов WEB �
 
 <!-- Jenkins -->
 
-### <img width="3%" title="Jenkins" src="images/logo_stacks/jenkins.png"> Запуск проекта в Jenkins
+### <img width="3%" title="Jenkins" src="images/logo/jenkins.png"> Запуск проекта в Jenkins
 ### [Job](https://jenkins.autotests.cloud/job/Maxim_Veselov11-reqres-api-tests/)
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере jenkins.
 ![This is an image](images/screenshots/jenkins.png)
